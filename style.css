@@ -1,0 +1,138 @@
+.bgr-footer {
+  width: 100%;
+  padding: 70px 20px 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  color: var(--ink-muted);
+}
+
+.bgr-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: -4px;
+
+  color: var(--ink);
+
+  padding: 10px 15px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-md);
+
+  transition: 0.3s ease;
+}
+
+.bgr-mark span:nth-child(2) {
+  opacity: 0.8;
+}
+
+.bgr-mark span:nth-child(3) {
+  opacity: 0.55;
+}
+
+.bgr-line {
+  width: 35px;
+  height: 2px;
+  margin-top: 14px;
+  margin-bottom: 10px;
+
+  background: var(--rule);
+  border-radius: 10px;
+}
+
+.bgr-footer p {
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.bgr-footer strong {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+
+.bgr-mark:hover {
+  transform: translateY(-3px);
+  border-color: var(--gold);
+  box-shadow: var(--shadow);
+}
+/* das  war der logo, jetzt kommt die webseite content. */
+body{
+    background-color: rgb(74, 74, 255);
+}
+html{
+margin:auto;
+}
+
+#marquee{
+border:5px solid black;
+background-color:black;
+color:whitesmoke;
+border-radius:10px;
+}
+
+#name{
+font-style:italic;
+color:whitesmoke;
+border:5px solid red;
+width:50%;
+strong{
+    font-size:30px;
+}
+}
+
+#über-mich{
+border:5px solid red;
+width:50%;
+display:flex;
+display: flex;
+flex-direction: column; 
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-left:50%;
+
+}
+
+#Meine-P-titel{
+border:5px solid red;
+width:17%;
+margin-left:15%;
+}
+
+#schlue-karte{
+border:5px solid red;
+width:50%;
+display:flex;
+flex-direction: column; 
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+#webseite{
+border:5px solid red;
+width:50%;
+display:flex;
+flex-direction: column; 
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+#profbot{
+border:5px solid red;
+width:50%;
+display:flex;
+flex-direction: column; 
+align-items: center;
+justify-content: center;
+text-align: center;
+}
