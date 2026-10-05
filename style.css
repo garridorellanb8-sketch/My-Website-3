@@ -89,7 +89,7 @@ strong{
 }
 
 .img_1{
-  width:50%;
+  width:10%;
 }
 
 #über-mich{
@@ -122,7 +122,7 @@ text-align: center;
 }
 
 #img-schlue-code{
-width:50%;
+width:10%;
 }
 
 #webseite{
@@ -136,7 +136,7 @@ text-align: center;
 }
 
 #img-website{
-width:50%;
+width:10%;
 }
 
 #profbot{
@@ -150,7 +150,7 @@ text-align: center;
 }
 
 #profbot-image{
-max-width:50%;
+max-width:10%;
 }
 
 #r_1{
@@ -175,6 +175,5 @@ margin-bottom:50%;
 }
 
 #bild-app{
-  width:50%;
-  height:40%;
+  width:10%;
 }
