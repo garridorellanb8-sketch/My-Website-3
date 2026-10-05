@@ -152,6 +152,7 @@ text-align: center;
 #profbot-image {
   width: 30%;
   max-width: 100%;
+  height: auto
 }
 
 #r_1{
