@@ -149,8 +149,9 @@ justify-content: center;
 text-align: center;
 }
 
-#profbot-image{
-  width:30%;
+#profbot-image {
+  width: 30%;
+  max-width: 100%;
 }
 
 #r_1{
