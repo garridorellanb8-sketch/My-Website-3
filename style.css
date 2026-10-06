@@ -1,5 +1,5 @@
 .bgr-footer {
-  width: 100%;
+  width: 90%;
   padding: 70px 20px 35px;
   display: flex;
   flex-direction: column;
@@ -7,6 +7,7 @@
   justify-content: center;
   box-sizing: border-box;
   color: var(--ink-muted);
+  margin: 0 auto;
 }
 
 .bgr-mark {
@@ -64,11 +65,23 @@
   box-shadow: var(--shadow);
 }
 /* das  war der logo, jetzt kommt die webseite content. */
+*{
+  box-sizing: border-box;
+}
 body{
-    background-color: rgb(74, 74, 255);
+  margin:0;
+  padding:0;
+    background-color: rgb(73, 138, 223);
+    overflow-x:hidden;
 }
 html{
-margin:auto;
+margin:0;
+padding:0;
+}
+
+html, body{
+  margin:0;
+  overflow-x: hidden;
 }
 
 #marquee{
@@ -76,6 +89,7 @@ border:5px solid black;
 background-color:black;
 color:whitesmoke;
 border-radius:10px;
+max-width:100%;
 }
 
 #name{
@@ -83,37 +97,62 @@ font-style:italic;
 color:whitesmoke;
 border:5px solid red;
 width:50%;
+max-width: 100%;
 strong{
     font-size:30px;
 }
 }
 
 .img_1{
-  width:50%;
+  position:relative;
+  bottom:-100px;
+  left:5%;
+  width:30%;
+  max-width:100%;
 }
 
 #über-mich{
-border:5px solid red;
+border:5px solid black;
+border-radius:10px;
 width:50%;
-display:flex;
+
 display: flex;
 flex-direction: column; 
 align-items: center;
 justify-content: center;
 text-align: center;
-margin-left:50%;
+
+position:relative;
+left:40%;
+top:-400px;
+
+p{
+  font-size:20px;
+  max-width: 100%;
+}
 
 }
 
+#t-ubermich{
+  color:rgba(237, 247, 91, 0.767);
+}
+
 #Meine-P-titel{
+color:rgba(237, 247, 91, 0.767);
 border:5px solid red;
-width:17%;
-margin-left:15%;
+width:47%;
+max-width:100%;
+position:relative;
+left:30%;
+top:-150px;
+
+font-size:25px;
 }
 
 #schlue-karte{
 border:5px solid red;
 width:50%;
+max-width:100%;
 display:flex;
 flex-direction: column; 
 align-items: center;
@@ -122,12 +161,21 @@ text-align: center;
 }
 
 #img-schlue-code{
-width:40%;
+width:30%;
+max-width:100%;
+}
+
+#button-schlue{
+  background-color:black;
+  border:3px solid whitesmoke;
+  border-radius:10px;
 }
 
 #webseite{
-border:5px solid red;
+border: 5px solid red;
 width:50%;
+max-width:100%;
+
 display:flex;
 flex-direction: column; 
 align-items: center;
@@ -137,11 +185,14 @@ text-align: center;
 
 #img-website{
 width:40%;
+max-width:100%;
 }
 
 #profbot{
 border:5px solid red;
 width:50%;
+max-width:100%;
+
 display:flex;
 flex-direction: column; 
 align-items: center;
@@ -163,33 +214,77 @@ text-align: center;
 
 #r_1{
 border:5px solid red;
-width:50%;
-height:100%;
+width:30%;
+max-width:100%;
+height:auto;
+
 display:flex;
 flex-direction: column; 
 align-items: center;
 justify-content: center;
 text-align: center;
 align-items:stretch;
-flex: 1;
-margin-left:50%;
-margin-top:-50.5%;
-margin-bottom:50%;
+
+position:relative;
+left:50%;
+top:-800px;
 }
 
 #link-r_1{
-  width:30%;
+  width:20%;
+  max-width:100%;
   margin-left:33%;
+
   text-align:center;
   text-decoration:none;
+
   background-color:black;
-  border-radius:10px;
+  border-radius: 10px;
   border:3px solid whitesmoke;
 }
 
 #bild-app{
   margin-bottom:15%;
-  width:80%;
+  width:70%;
+  max-width:100%;
   margin-left:15%;
-  height:50%;
+  height:auto;
+}
+
+#t-lernen{
+  display:flex;
+
+  color:rgba(237, 247, 91, 0.767);
+
+  border:3px solid red;
+
+  font-size:55px;
+
+  width:40%;
+  max-width:100%;
+
+  position:relative;
+  left:30%;
+  top:-600px;
+}
+
+#python{
+  border:3px solid red;
+
+  width:15%;
+  max-width:100%;
+
+  position:relative;
+  top:-500px;
+  left:10%;
+
+  p{
+    font-size:17px;
+  }
+  img{
+    width:75%;
+    max-width:100%;
+    display:block;
+    margin: 0 auto;
+  }
 }
