@@ -175,6 +175,10 @@ margin-bottom:50%;
   width:30%;
   margin-left:33%;
   text-align:center;
+  text-decoration:none;
+  background-color:black;
+  border-radius:10px;
+  border:3px solid black;
 }
 
 #bild-app{
