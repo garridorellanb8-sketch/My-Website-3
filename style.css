@@ -385,3 +385,16 @@ height:190px;
   left:72%;
   top:-1065px;
 }
+
+#t-weg{
+  color:rgba(237, 247, 91, 0.767);
+
+  font-size:55px;
+
+   width:40%;
+  max-width:100%;
+
+  position:relative;
+  left:30%;
+  top:-500px;
+}
