@@ -95,7 +95,6 @@ max-width:100%;
 #name{
 font-style:italic;
 color:whitesmoke;
-border:5px solid red;
 width:50%;
 max-width: 100%;
 strong{
@@ -139,7 +138,6 @@ p{
 
 #Meine-P-titel{
 color:rgba(237, 247, 91, 0.767);
-border:5px solid red;
 width:47%;
 max-width:100%;
 position:relative;
@@ -153,15 +151,23 @@ font-size:25px;
 border:5px solid red;
 width:50%;
 max-width:100%;
+
 display:flex;
 flex-direction: column; 
 align-items: center;
 justify-content: center;
 text-align: center;
+
+position:relative;
+top:-50px;
+left:10px;
+
+border:6px solid black;
+border-radius:10px;
 }
 
 #img-schlue-code{
-width:30%;
+width:37%;
 max-width:100%;
 }
 
@@ -181,6 +187,13 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 text-align: center;
+
+position:relative;
+top:-30px;
+left:10px;
+
+border:6px solid black;
+border-radius:10px;
 }
 
 #img-website{
@@ -198,6 +211,12 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 text-align: center;
+
+position:relative;
+left:10px;
+
+border:6px solid black;
+border-radius:10px;
 }
 
 #profbot-img{
@@ -207,14 +226,16 @@ text-align: center;
 }
 
 #profbot-button{
+
   background-color:black;
+
   border:3px solid whitesmoke;
   border-radius:10px;
 }
 
 #r_1{
 border:5px solid red;
-width:30%;
+width:47%;
 max-width:100%;
 height:auto;
 
@@ -226,14 +247,17 @@ text-align: center;
 align-items:stretch;
 
 position:relative;
-left:50%;
+left:52%;
 top:-800px;
+
+border:6px solid black;
+border-radius:10px;
 }
 
 #link-r_1{
-  width:43%;
+  width:28%;
   max-width:100%;
-  margin-left:33%;
+  margin-left:36%;
 
   text-align:center;
   text-decoration:none;
@@ -245,9 +269,10 @@ top:-800px;
 
 #bild-app{
   margin-bottom:15%;
-  width:70%;
+  width: 80%;
   max-width:100%;
-  margin-left:15%;
+  margin-left:11%;
+  margin-bottom:5%;
   height:auto;
 }
 
@@ -265,20 +290,22 @@ top:-800px;
 
   position:relative;
   left:30%;
-  top:-600px;
+  top:-500px;
 }
 
 #python{
-  border:3px solid red;
+border:3px solid black;
+border-radius:10px;
 
   width:15%;
   max-width:100%;
 
   position:relative;
   top:-500px;
-  left:10%;
+  left:7%;
 
   p{
+    text-align:center;
     font-size:17px;
   }
   img{
@@ -286,5 +313,27 @@ top:-800px;
     max-width:100%;
     display:block;
     margin: 0 auto;
+  }
+}
+
+#Webentwicklung{
+  width:14%;
+  max-width: 100%;
+
+border:3px solid black;
+border-radius:10px;
+
+position:relative;
+left:29%;
+top:-700px;
+
+  img{
+    width:80%;
+    display:block;
+    margin: 0 auto;
+  }
+  p{
+    text-align:center;
+     font-size:17px;
   }
 }
