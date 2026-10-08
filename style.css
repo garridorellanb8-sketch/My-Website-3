@@ -148,7 +148,6 @@ font-size:25px;
 }
 
 #schlue-karte{
-border:5px solid red;
 width:50%;
 max-width:100%;
 
@@ -172,7 +171,7 @@ max-width:100%;
 }
 
 #button-schlue{
-  background-color:black;
+  background-color:orange;
   border:3px solid whitesmoke;
   border-radius:10px;
 }
@@ -202,7 +201,6 @@ max-width:100%;
 }
 
 #profbot{
-border:5px solid red;
 width:50%;
 max-width:100%;
 
@@ -227,14 +225,13 @@ border-radius:10px;
 
 #profbot-button{
 
-  background-color:black;
+  background-color:orange;
 
   border:3px solid whitesmoke;
   border-radius:10px;
 }
 
 #r_1{
-border:5px solid red;
 width:47%;
 max-width:100%;
 height:auto;
@@ -262,7 +259,7 @@ border-radius:10px;
   text-align:center;
   text-decoration:none;
 
-  background-color:black;
+  background-color:orange;
   border-radius: 10px;
   border:3px solid whitesmoke;
 }
