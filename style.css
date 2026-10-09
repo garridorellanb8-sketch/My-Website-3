@@ -589,7 +589,16 @@ top:-2100px;
 #fussball-daten{
   width:100%;
   max-width:100%;  
-  
+
+  position:relative;
+  top:-1500px;
+  video{
+    width:40%;
+    max-width:100%;
+    
+    position: relative;
+    left:380px;
+  }
   h1{
     color:rgba(237, 247, 91, 0.767);
     text-align: center;
