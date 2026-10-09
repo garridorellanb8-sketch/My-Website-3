@@ -553,7 +553,7 @@ left:38%;
 
   position: relative;
   left:72%;
-  top:-2280px;
+  top:-2293px;
 
 }
 
@@ -584,4 +584,17 @@ top:-2100px;
     text-align: center;
   }
 
+}
+
+#fussball-daten{
+  width:100%;
+  max-width:100%;  
+  
+  h1{
+    color:rgba(237, 247, 91, 0.767);
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
 }
