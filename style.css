@@ -67,14 +67,17 @@
 /* das  war der logo, jetzt kommt die webseite content. */
 *{
   box-sizing: border-box;
+  scrollbar-width: none;
 }
 body{
   margin:0;
   padding:0;
     background-color: rgb(73, 138, 223);
-    overflow-x:hidden;
+    overflow: hidden;
+    
 }
 html{
+
 margin:0;
 padding:0;
 }
@@ -82,6 +85,7 @@ padding:0;
 html, body{
   margin:0;
   overflow-x: hidden;
+  
 }
 
 #marquee{
@@ -97,9 +101,12 @@ font-style:italic;
 color:whitesmoke;
 width:50%;
 max-width: 100%;
+
 strong{
+
     font-size:30px;
 }
+
 }
 
 .img_1{
@@ -607,4 +614,53 @@ top:-2100px;
   p{
     text-align: center;
   }
+}
+
+#githubseccion{
+width:70%;
+max-width:100%;
+
+
+  h1{
+    width:30%;
+    max-width:100%;
+
+    position:relative;
+    left:30%;
+    top:-145px;
+
+    color:rgba(237, 247, 91, 0.767);
+
+    font-size:50px;
+  }
+
+  img{
+    width:20%;
+    position:relative;
+    left:5%;
+
+  }
+
+  p{
+    font-size: 20px;
+
+    position:relative;
+    left:20%;
+  }
+
+}
+
+#buttongithub{
+  width:25%;
+  height:75px;
+
+  background-color: rgb(73, 138, 223);
+  border:3px solid black;
+  border-radius: 10px;
+
+}
+
+#linkgithub{
+  text-decoration: none;
+  stroke: black !important;
 }
