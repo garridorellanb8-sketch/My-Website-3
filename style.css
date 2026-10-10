@@ -617,12 +617,14 @@ top:-2100px;
 }
 
 #githubseccion{
-width:70%;
+width:80%;
 max-width:100%;
 
+position:relative;
+top:-1750px;
 
   h1{
-    width:30%;
+    width:24%;
     max-width:100%;
 
     position:relative;
@@ -635,7 +637,7 @@ max-width:100%;
   }
 
   img{
-    width:20%;
+    width:18%;
     position:relative;
     left:5%;
 
@@ -643,19 +645,25 @@ max-width:100%;
 
   p{
     font-size: 20px;
+    color:rgba(237, 247, 91, 0.767);;
 
     position:relative;
-    left:20%;
+    left:30%;
+    top:-150px;
   }
 
 }
 
 #buttongithub{
-  width:25%;
-  height:75px;
+  width:30%;
+  height:70px;
 
-  background-color: rgb(73, 138, 223);
-  border:3px solid black;
+  position:relative;
+  left:85%;
+  top:-275px;
+
+  background-color:rgba(237, 247, 91, 0.767);;
+  border:3px solid rgba(85, 90, 23, 0.767);
   border-radius: 10px;
 
 }
