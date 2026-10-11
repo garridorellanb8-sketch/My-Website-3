@@ -72,7 +72,10 @@
 body{
   margin:0;
   padding:0;
-    background-color: rgb(44, 43, 43);
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTM0Tv8t-KRj7uWqz_AdHxbSkW9AJtNG95lmpjjmlUoq8lqnTe120AWMBYncYR8);
+    background-attachment: fixed;
+    background-size:cover;
+    scroll-behavior: smooth;
     overflow: hidden;
     
 }
@@ -119,7 +122,7 @@ strong{
 }
 
 #über-mich{
-border:5px solid black;
+border:5px solid rgba(237, 247, 91, 0.767);
 border-radius:10px;
 width:50%;
 
@@ -136,6 +139,7 @@ top:-400px;
 p{
   font-size:20px;
   max-width: 100%;
+  color:whitesmoke;
 }
 
 }
@@ -172,9 +176,17 @@ left:10px;
 border:6px solid black;
 border-radius:10px;
 
+p{
+   color:whitesmoke;
+}
+
 a{
 text-decoration:none;
 color:black;
+}
+
+h1{
+  color:#F8F9FA;
 }
 
 }
@@ -208,6 +220,15 @@ left:10px;
 
 border:6px solid black;
 border-radius:10px;
+
+p{
+   color:whitesmoke;
+}
+
+h1{
+  color:#F8F9FA;
+}
+
 }
 
 #img-website{
@@ -234,6 +255,14 @@ border-radius:10px;
 a{
   text-decoration:none;
   color:black;
+}
+
+p{
+   color:whitesmoke;
+}
+
+h1{
+  color:#F8F9FA;
 }
 
 }
@@ -275,6 +304,15 @@ a{
   text-decoration:none;
   color:black;
 }
+
+p{
+   color:whitesmoke;
+}
+
+h1{
+  color:#F8F9FA;
+}
+
 }
 
 #link-r_1{
@@ -329,6 +367,7 @@ border-radius:10px;
   p{
     text-align:center;
     font-size:17px;
+    color:whitesmoke;
   }
   img{
     width:75%;
@@ -358,6 +397,7 @@ top:-685px;
   p{
     text-align:center;
      font-size:17px;
+      color:whitesmoke;
   }
 }
 
@@ -377,6 +417,7 @@ top:-685px;
   }
   p{
     text-align:center;
+     color:whitesmoke;
   }
   position:relative;
   left:45%;
@@ -399,6 +440,7 @@ height:190px;
   p{
     padding:-20px;
     text-align:center;
+     color:whitesmoke;
   }
 
   border:3px solid black;
@@ -448,6 +490,7 @@ height:190px;
 
   p{
      text-align: center;
+      color:whitesmoke;
   }
 }
 
@@ -481,6 +524,7 @@ height:190px;
   p{
     font-size:20px;
     text-align:center;
+     color:whitesmoke;
   }
 
   h1{
@@ -524,6 +568,7 @@ left:38%;
 
    p{
      text-align: center;
+      color:whitesmoke;
    }
 }
 
@@ -569,6 +614,7 @@ left:38%;
   p{
 
      text-align: center;
+      color:whitesmoke;
 
   }
 
@@ -608,6 +654,7 @@ top:-2100px;
 
   p{
     text-align: center;
+     color:whitesmoke;
   }
 
 }
@@ -635,6 +682,7 @@ top:-2100px;
   }
   p{
     text-align: center;
+     color:whitesmoke;
   }
 }
 
