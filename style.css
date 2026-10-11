@@ -8,6 +8,8 @@
   box-sizing: border-box;
   color: whitesmoke;
   margin: 0 auto;
+  position:relative;
+  top:-1500px;
 }
 
 .bgr-mark {
@@ -643,7 +645,7 @@ left:38%;
 
   position: relative;
   left:72%;
-  top:-2293px;
+  top:-2050px;
 
 }
 
@@ -656,7 +658,7 @@ border-radius:10px;
 
 position:relative;
 left:76%;
-top:-2100px;
+top:-2225px;
 
   img{
     width:60%;
