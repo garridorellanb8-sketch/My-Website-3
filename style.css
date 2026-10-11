@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  color: var(--ink-muted);
+  color: whitesmoke;
   margin: 0 auto;
 }
 
@@ -20,7 +20,7 @@
   font-weight: 900;
   letter-spacing: -4px;
 
-  color: var(--ink);
+  color: whitesmoke;
 
   padding: 10px 15px;
   border: 1px solid var(--rule);
@@ -54,14 +54,14 @@
 }
 
 .bgr-footer strong {
-  color: var(--ink);
+  color: whitesmoke;
   font-weight: 700;
 }
 
 
 .bgr-mark:hover {
   transform: translateY(-3px);
-  border-color: var(--gold);
+  border-color: whitesmoke;
   box-shadow: var(--shadow);
 }
 /* das  war der logo, jetzt kommt die webseite content. */
@@ -173,7 +173,7 @@ position:relative;
 top:-50px;
 left:10px;
 
-border:6px solid black;
+border:6px solid rgba(237, 247, 91, 0.767);
 border-radius:10px;
 
 p{
@@ -194,6 +194,8 @@ h1{
 #img-schlue-code{
 width:37%;
 max-width:100%;
+border-radius:10px;
+border:3px solid whitesmoke;
 }
 
 #button-schlue{
@@ -204,7 +206,6 @@ max-width:100%;
 }
 
 #webseite{
-border: 5px solid red;
 width:50%;
 max-width:100%;
 
@@ -218,7 +219,7 @@ position:relative;
 top:-30px;
 left:10px;
 
-border:6px solid black;
+border:6px solid rgba(237, 247, 91, 0.767);
 border-radius:10px;
 
 p{
@@ -234,6 +235,10 @@ h1{
 #img-website{
 width:40%;
 max-width:100%;
+
+border-radius:10px;
+border:3px solid whitesmoke;
+
 }
 
 #profbot{
@@ -249,7 +254,7 @@ text-align: center;
 position:relative;
 left:10px;
 
-border:6px solid black;
+border:6px solid rgba(237, 247, 91, 0.767);
 border-radius:10px;
 
 a{
@@ -271,6 +276,10 @@ h1{
   width: 30% !important;
   max-width: 100% !important;
   height: auto !important;
+
+  border-radius:10px;
+  border:3px solid whitesmoke;
+
 }
 
 #profbot-button{
@@ -284,7 +293,7 @@ h1{
 #r_1{
 width:47%;
 max-width:100%;
-height:auto;
+height:1080px;
 
 display:flex;
 flex-direction: column; 
@@ -295,9 +304,9 @@ align-items:stretch;
 
 position:relative;
 left:52%;
-top:-800px;
+top:-1080px;
 
-border:6px solid black;
+border:6px solid rgba(237, 247, 91, 0.767);
 border-radius:10px;
 
 a{
@@ -307,10 +316,13 @@ a{
 
 p{
    color:whitesmoke;
+   font-size:20px;
 }
 
 h1{
   color:#F8F9FA;
+  font-size:50px;
+  margin-bottom: 60px;
 }
 
 }
@@ -330,11 +342,17 @@ h1{
 
 #bild-app{
   margin-bottom:15%;
-  width: 80%;
+  width: 98%;
   max-width:100%;
   margin-left:11%;
   margin-bottom:5%;
-  height:auto;
+  height:650px;
+
+  position:relative;
+  right:11%;
+
+  border-radius:10px;
+  border:3px solid whitesmoke;
 }
 
 #t-lernen{
@@ -353,7 +371,7 @@ h1{
 }
 
 #python{
-border:3px solid black;
+border:3px solid rgba(237, 247, 91, 0.767);
 border-radius:10px;
 
   width:15%;
@@ -382,7 +400,7 @@ border-radius:10px;
   max-width: 100%;
   height:190px;
 
-border:3px solid black;
+border:3px solid rgba(237, 247, 91, 0.767);
 border-radius:10px;
 
 position:relative;
@@ -406,7 +424,7 @@ top:-685px;
   max-width: 100%;
   height:190px;
 
-  border:3px solid black;
+  border:3px solid rgba(237, 247, 91, 0.767);
   border-radius:10px;
 
    img{
@@ -443,7 +461,7 @@ height:190px;
      color:whitesmoke;
   }
 
-  border:3px solid black;
+  border:3px solid rgba(237, 247, 91, 0.767) ;
   border-radius:10px;
 
   position:relative;
@@ -467,7 +485,7 @@ height:190px;
 #mimo{
   width:15%;
   max-width:100%;
-  border:3px solid black;
+  border:3px solid rgba(237, 247, 91, 0.767);
   border-radius: 10px;
 
   position:relative;
@@ -507,7 +525,7 @@ height:190px;
   max-width:100%;
   height:210px;
 
-  border:3px solid black;
+  border:3px solid rgba(237, 247, 91, 0.767);
   border-radius: 10px;
 
   position: relative;
@@ -547,7 +565,7 @@ width:15%;
 max-width:100%;
 height:210px;
 
-border:3px solid black;
+border:3px solid rgba(237, 247, 91, 0.767);
 border-radius: 10px;  
 
 position:relative;
@@ -586,7 +604,7 @@ left:38%;
   max-width:100%;
   height: 210px;
 
-  border:3px solid black;
+  border:3px solid rgba(237, 247, 91, 0.767);
   border-radius: 10px;
 
   position: relative;
@@ -633,7 +651,7 @@ left:38%;
 width:15%;
 max-width:100%;
 
-border:3px solid black;
+border:3px solid rgba(237, 247, 91, 0.767);
 border-radius:10px;
 
 position:relative;
