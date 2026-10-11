@@ -9,7 +9,7 @@
   color: whitesmoke;
   margin: 0 auto;
   position:relative;
-  top:-1500px;
+  top:-1350px;
 }
 
 .bgr-mark {
@@ -711,7 +711,7 @@ width:80%;
 max-width:100%;
 
 position:relative;
-top:-1600px;
+top:-1700px;
 
   h1{
     width:24%;
@@ -801,4 +801,15 @@ justify-content: center;
 position:relative;
 left:40%;
 top:-1600px;
+}
+
+#rechte-p{
+  color:whitesmoke;
+
+  font-size:20px;
+
+  text-align:center;
+
+  position:relative;
+  top:-1350px;
 }
